@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: realestate-web
+    env: python
+    plan: free
+    branch: master
+    rootDir: realestate
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt && python manage.py collectstatic --noinput
+    startCommand: gunicorn realestate.wsgi:application
+    autoDeploy: true
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: realestate.settings
+      - key: DEBUG
+        value: 'False'
+    disk: 1024
