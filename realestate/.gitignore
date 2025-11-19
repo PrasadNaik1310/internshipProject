@@ -1,0 +1,103 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+
+# Django stuff:
+# Ignore database files and local settings
+db.sqlite3
+*.sqlite3
+local_settings.py
+
+# Media uploads
+/media/
+
+# Django static files (if you collect them into repo, remove these)
+/staticfiles/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Editor directories and files
+*.swp
+*~
+.#*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage and profiling
+htmlcov/
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+.log
+logs/
+
+# Editor workspace files
+*.sublime-workspace
+*.sublime-project
