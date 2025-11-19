@@ -1,0 +1,6 @@
+Django==5.2.8
+djangorestframework
+gunicorn
+whitenoise
+# Optional DB driver (uncomment if using Postgres)
+# psycopg2-binary
